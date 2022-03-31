@@ -5,14 +5,17 @@
   "homepage" : "https://github.com/skyline-nine/Makro-Emulator/",
   "author" : "skyline-nine, <jeremy@documentcloud.org>",
   "main" : "app.js",
-  "dependencies": {
-        "express": "^4.16.4"
-    },
   "scripts": {
-        "start": "node app.js"
-    },
-   "engines": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
     "node": "10.16.0",
     "npm": "6.9.0"
+  },
+  "author": "Digamber",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
