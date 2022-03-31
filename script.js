@@ -1,15 +1,24 @@
-const http = require('http');
+app.js
+const express = require('express');
+const app = express();
+const path = require('path');
+const router = express.Router();
 
-const hostname = '127.0.0.1';
-const port = 3000;
-const port = process.env.PORT || 3000;
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World');
+router.get('/',function(req,res){
+  res.sendFile(path.join(__dirname+'/index.html'));
+  //__dirname : It will resolve to your project folder.
 });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+router.get('/about',function(req,res){
+  res.sendFile(path.join(__dirname+'/about.html'));
 });
+
+router.get('/sitemap',function(req,res){
+  res.sendFile(path.join(__dirname+'/sitemap.html'));
+});
+
+//add the router
+app.use('/', router);
+app.listen(process.env.port || 3000);
+
+console.log('Running at Port 3000');
