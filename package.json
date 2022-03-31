@@ -6,7 +6,7 @@
   "author" : "skyline-nine, <jeremy@documentcloud.org>",
   "main" : "script.js",
   "dependencies": {
-        "express": "^4.16.4"
+        "express": "^4.16.4",
         "http": "1.1"
     }
 }
