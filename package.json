@@ -4,8 +4,12 @@
   "description" : "A N64 Emulator",
   "homepage" : "https://github.com/skyline-nine/Makro-Emulator/",
   "author" : "skyline-nine, <jeremy@documentcloud.org>",
-  "main" : "script.js",
+  "main" : "app.js",
   "dependencies": {
         "express": "^4.16.4"
     }
+  "scripts": {
+        "start": "node app.js"
+    }
+
 }
