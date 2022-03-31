@@ -1,2 +1,2 @@
-# Makro-Emulator
+# Makro Emulator
 A N64 Emulator
