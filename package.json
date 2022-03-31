@@ -1,4 +1,8 @@
 {
   "name" : "Makro-Emulator",
   "version" : "0.0.1",
+  "description" : "A N64 Emulator",
+  "homepage" : "https://github.com/skyline-nine/Makro-Emulator/",
+  "author" : "skyline-nine, <jeremy@documentcloud.org>",
+  "main" : "script.js",
 }
