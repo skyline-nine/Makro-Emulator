@@ -1,0 +1,3 @@
+<button type="button" class="btn btn-primary mt-4" id="btnRemap" onclick="myApp.showRemapModal()">
+                    Remap Buttons
+                </button>
