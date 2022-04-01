@@ -5,7 +5,7 @@
   "homepage": "https://github.com/skyline-nine/Makro-Emulator/",
   "author": "skyline-nine",
   "main": "app.js",
-"scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
