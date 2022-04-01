@@ -10,8 +10,6 @@ All ownership goes to skyline-nine
 
 Leader of the Project skyline-nine
 
-N64 Emulator
-
 Group Name=Makro=Emulation
 
 All license go to skyline-nine If you use of our code you must get permission
