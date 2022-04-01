@@ -5,8 +5,15 @@
   "homepage": "https://github.com/skyline-nine/Makro-Emulator/",
   "author": "skyline-nine",
   "main": "app.js",
-  "scripts": {
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
-    "dev": "nodemon ./index.js"
+  },
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
