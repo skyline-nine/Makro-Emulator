@@ -1,1 +1,0 @@
-<button id="btnUploadRom" class="btn btn-primary mt-4" onclick="myApp.uploadBrowse()" rv-disabled="data.moduleInitializing">Browse</button>
