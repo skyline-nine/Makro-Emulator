@@ -6,14 +6,8 @@
   "author": "skyline-nine",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "engines": {
-    "node": "10.16.0",
-    "npm": "6.9.0"
-  },
-  "license": "MIT",
   "dependencies": {
     "express": "4.x"
   }
