@@ -10,6 +10,6 @@ All ownership goes to skyline-nine
 
 Leader of the Project skyline-nine
 
-Group Name=Makro=Emulation
+Group Name=Makro-Emulation
 
 All license go to skyline-nine If you use of our code you must get permission
