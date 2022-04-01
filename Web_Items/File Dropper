@@ -1,0 +1,8 @@
+<div id="dropArea" style="width: 150px; height: 150px; border: gray 1px solid;margin-left: auto;
+                    color: darkgrey;margin-right: auto; border-style: dashed;">
+                    <br>
+                    <br>
+                    Drag/Drop 
+                    <br>
+                    Rom File
+                </div>
