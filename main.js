@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'index.html'));
 	console.log('index loaded')
 });
-// Broken 
+// fixed
 app.get('/about', function (req, res) {
     res.sendFile(path.join(__dirname, 'about.html'));
 	console.log('about page loaded')
