@@ -1,15 +1,112 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+#fileslbl {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 25vh;
+	background-color: red;
+	color: white;
+	padding: 16px;
+	text-align: center;
+	transition: 0.5s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+#filesfld {
+	display: none;
+}
+#progress {
+	width: 0;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 25px;
+	padding: 0 5px;
+}
+@keyframes dropbox {
+	0% {
+		background-image: repeating-linear-gradient(
+			30deg,
+			grey 100%
+		);
+	}
+	50% {
+		background-image: repeating-linear-gradient(
+			30deg,
+			grey 100%
+		);
+	}
+	100% {
+		background-image: repeating-linear-gradient(
+			30deg,
+			grey 100%
+		);
+	}
+}
+
 .lw {
 	text-align: center;
 	font-family: verdana;
 }
 .name {
+	position: fixed;
+	font-family: verdana, arial, sans-serif;
+	bottom: 0;
+	right: 45%;
+	color: grey;
+}
+
+.about {
+	position: fixed;
+	font-family: verdana, arial, sans-serif;
+	bottom: 2.5%;
+	right: 30%;
+	color: grey;
+}
+.home {
+	position: fixed;
+	font-family: verdana, arial, sans-serif;
+	bottom: 2.5%;
+	left: 30%;
+	color: grey;
+}
+.heading {
 	text-align: center;
 	font-family: verdana;
 }
-body {
-	background-image: url('https://static.vecteezy.com/system/resources/previews/003/161/225/non_2x/abstract-white-and-blue-background-free-vector.jpg');
+.fzfh {
+	position: fixed;
+	top: 40%;
+	left: 30%;
+	color: black;
 }
-
+.fzfhl {
+	position: fixed;
+	top: 42.3%;
+	left: 65.92%;
+}
+.support {
+}
+body {
+	background-image: url('../bg/bg.jpg');
+	background-size: cover;
+}
 p {
 	text-align: center;
 	font-family: verdana;
